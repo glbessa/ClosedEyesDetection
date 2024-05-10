@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "closedeyesdetection"
+version = "0.1.0"
+description = ""
+authors = ["Gabriel Leite Bessa <gabrielleitebessa@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+dlib = "^19.24.4"
+opencv-python = "^4.9.0.80"
+scipy = "^1.13.0"
+imutils = "^0.5.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
